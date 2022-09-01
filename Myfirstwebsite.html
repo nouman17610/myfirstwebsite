@@ -1,0 +1,122 @@
+<!Doctype html>
+ <!-- specfied that enlish language is being used-->
+ <html lang="en-US">
+	<head >
+	<title> First website </title>
+	<link href="myfirstwebsite.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	<div class="topnav">
+		<a href="#contact me"> contact me </a>
+		<a href="#portfolio"> Portfolio </a>t
+		<a href="#about me"> About Me </a>
+		<a class="active" href="#home">Home</a>
+	</div>
+	<div class="banner-image">
+		<img src="banner.jpg">
+	</div>
+	
+	<div class="aboutme"> 
+	<h1> About Me </h1>
+		<p>My name is Nouman wali. I am ACCA qualified and has been working in software industry for more than 8 years. I am writer, tutor, and researcher. Mostly work in the field of 
+		information technology and financial management. </p>
+	</div>
+	
+	<div class="tableheading">
+	<h1> My Academic Details</h1>
+	</div>
+	
+	<div class="tableone">
+		<table style="width:100%">
+			<tr>
+				<th>Qualification</th>
+				<th>Year of passing</th>
+				<th>Grades</th>
+				<th>Institute</th>
+			</tr>
+			<tr>
+				<td>ACCA</td>
+				<td>2012</td>
+				<td>B+</td>
+				<td>Skan school of accountancy</td>
+			</tr>
+			<tr>
+				<td>B.com IT</td>
+				<td>2009</td>
+				<td>First division</td>
+				<td>Punjab University</td>
+			</tr>	
+			<tr>
+				<td>FSc Pre-Medical</td>
+				<td>2007</td>
+				<td>Second Division</td>
+				<td>Govt Degree College Sillanwali</td>
+			</tr>
+			
+		</table>
+	</div>
+	<div class=descriptionlist>
+		<h1> My skills </h1>
+	</div>
+		<div class="row">
+			<div class="column">
+			<dl>
+			<dt>Writing skills </dt>
+				<dd>-Content writing</dd>
+				<dd>-Blog writing</dd>
+				<dd>-Technical writing</dd>
+				<dd>-Academic writing</dd>
+			</dl>
+			</div>
+			<div class="column">
+			<dl>
+			<dt>Tutoring skills </dt>
+				<dd>-Online tutoring</dd>
+				<dd>-Crash courses</dd>
+				<dd>-Live tutoring</dd>
+				<dd>-Exam preparation</dd>
+			</dl>
+			</div>
+			<div class="column">
+			<dl>
+			<dt>Professional skills </dt>
+				<dd>-HTML & CSS</dd>
+				<dd>-Javascript</dd>
+				<dd>-Wordpress</dd>
+				<dd>-Microsoft office</dd>
+				
+			</dl>
+			</div>
+		</div>
+	<h1> Contact us </h1>
+	<button type="button" onclick="myFunction()"> Get number </button>
+	<p id="test">My mobile number</p>
+	<script>
+		function myFunction(){
+		document.getElementById("test").innerHTML="032275238724";
+		document.getElementById("test").style.fontColor="red";
+		document.getElementById("test").style.fontSize="30px";
+		document.getElementById("test").style.backgroundColor="yellow";
+		}
+		
+	</script>
+	<h1> Contact form</h1>
+	<div class="contact-form">
+	<form>
+		<label for="fname"> First Name </label>
+		<input type="text" id="fname" name="fname" value="John"><br>
+		<label for="lname"> Last Name </label>
+		<input type="text" id="lname" name="lname" value="Ricky"><br>
+		<label for="mobile"> Mobile </label>
+		<input type="number" id="mobile" name="mobile" value="03227538724"><br>
+		<label for="emailid"> Email </label>
+		<input type="email" id="emailid" name="emailid" value="accanouman@gmail.com"><br>
+		<label for="address"> Address </label>
+		<input type="text" id="address" name"address" value="Islamabad, Pakistan"><br>
+		<button> Submit </submit>
+	
+	</form>
+	</div>
+	</body>
+</html>
